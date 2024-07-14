@@ -13,7 +13,7 @@ import {ChartsGrid} from '@mui/x-charts/ChartsGrid';
 import {ChartsTooltip} from '@mui/x-charts/ChartsTooltip';
 import {Box, Checkbox, FormControlLabel, Stack} from "@mui/material";
 
-export default function ContainedButtons() {
+export default function Page() {
     const [newRequests, setNewRequests] = useState(0);
     const [data, setData] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
